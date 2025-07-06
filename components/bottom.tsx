@@ -21,7 +21,7 @@ export default function Bottom() {
     "https://takeuforward.org/static/media/TufPlusLight.041fc694d612b3fbaaa0.png"
 
   return (
-    <div className="hidden sm:flex bg-black justify-center items-start pt-8 sm:pt-12">
+    <div className="hidden sm:flex bg-[#1d1c20] justify-center items-start pt-8 sm:pt-12">
       <div
         ref={wrapperRef}
         onMouseMove={handleMouseMove}
