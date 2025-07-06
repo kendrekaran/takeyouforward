@@ -6,42 +6,42 @@ const Page = () => {
   // Custom testimonials (previously embedded tweets)
   const testimonials = [
     {
-      image: "https://pbs.twimg.com/profile_images/1924112640055320576/adxxLqA-_400x400.jpg",
+      image: "https://i.pinimg.com/736x/c0/da/a0/c0daa0c0d36be258af6a2d8854c8cae4.jpg",
       name: "Kashish",
       handle: "@whatkashish",
       message:
         "I am genuinely impressed by how every little detail is so well thought out.\n\nIt&apos;s so evident that when someone is truly passionate about what they&apos;re building, it reflects in the product and that&apos;s exactly the case with TUF. 👏🏻",
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1931308162130337792/G_JbJY-X_400x400.jpg",
+      image: "https://i.pinimg.com/736x/99/ba/8f/99ba8fdddf81bb7aea1a31dc7d7278f1.jpg",
       name: "Suraj Jha",
       handle: "@sigmadev234",
       message:
         "Just had a demo of @takeUforward_ V3 — super impressive!\n• Feature-rich & intuitive\n• Learner-first approach\n• Smart personalization\n• Real problem-solving focus\n\nA big shoutout to the amazing team — you're building something truly impactful. Best of luck",
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1917192697103745024/8zue7C27_400x400.jpg",
+      image: "https://i.pinimg.com/736x/be/f4/db/bef4dbb2ef3c96154071b11e588d1266.jpg",
       name: "Aarchi Gandhi",
       handle: "@FafdaJalebie",
       message:
         "Such a crazy 1 stop platform for Interview Preparation. The content quality and structure is amazing!\nThe personalized roadmap and lifetime access make it even better.\nHighly Recommending TUF+ V3 for anyone serious about their tech career 🔥",
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1729846436458569728/c1h6uHga_400x400.jpg",
+      image: "https://i.pinimg.com/736x/f2/18/9c/f2189c7e2ce21c4ea8e281f18cc2228a.jpg",
       name: "Ankush Dharkar",
       handle: "@ankushdharkar",
       message:
         "What a great demo! Nicely done @striver_79 and team!! 👌\n\nSo excited to think about all the devs who would be using this product to prepare themselves for the challenges and skills ahead!\n\nIt has a single-pay lifetime access license!! So cool! ❤️\n\n(P.S – Goodbye Leetcode)",
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1755986144737828864/wIVGha3H_400x400.jpg",
+      image: "https://i.pinimg.com/736x/93/91/4d/93914de79b3a8d1be89b76a228ec02db.jpg",
       name: "Saurabh Kumar",
       handle: "@drummatick",
       message:
         "TUF+ V3 is a one-of-a-kind platform that's revolutionizing interview prep.\nReally amazing what @striver_79 and team have pulled in such a small amount of time. The attention to detail and comprehensive coverage of topics is outstanding.\nDefinitely the best platform I've seen for technical interview preparation!",
     },
     {
-      image: "https://pbs.twimg.com/profile_images/1882440578266185728/XGgyeteI_400x400.jpg",
+      image: "https://i.pinimg.com/736x/a1/97/8f/a1978fe8be917ee22a091196f3afeaf7.jpg",
       name: "Riti Kumari",
       handle: "@riti2409",
       message: "V3 looks very promising 💯\n\nAll the very best @striver_79 and entire @takeUforward_ team.",
