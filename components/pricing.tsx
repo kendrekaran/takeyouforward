@@ -203,20 +203,20 @@ export default function PricingSection() {
                      </div>
                     
                      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-2">
-     <div>
+     <div className="flex-shrink-0 min-w-0">
                          <div className="flex items-center gap-2 mb-1">
                            <span className={`text-xs font-semibold uppercase tracking-wide ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Original</span>
-                           <span className={`text-xs line-through ${plan.isPopular ? 'text-orange-600' : 'text-gray-500'}`}>₹{plan.originalPrice}</span>
+                           <span className={`text-xs line-through truncate ${plan.isPopular ? 'text-orange-600' : 'text-gray-500'}`}>₹{plan.originalPrice}</span>
                          </div>
                          <div className="flex items-center gap-2 mb-1">
                            <span className={`text-xs font-semibold uppercase tracking-wide ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Regular</span>
-                           <span className={`text-xs ${plan.isPopular ? 'text-orange-900 font-bold' : 'text-black font-semibold'}`}>₹{plan.regularPrice}</span>
+                           <span className={`text-xs truncate ${plan.isPopular ? 'text-orange-900 font-bold' : 'text-black font-semibold'}`}>₹{plan.regularPrice}</span>
                          </div>
                        </div>
                       
-                       <div className="flex items-end gap-2">
+                       <div className="flex items-end gap-2 flex-shrink-0">
                          <span className={`text-xs font-semibold ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Now</span>
-                         <span className={`text-4xl sm:text-5xl font-extrabold ${plan.isPopular ? 'text-orange-600 drop-shadow-sm' : 'text-[#ea763f] drop-shadow-lg'}`}>
+                         <span className={`text-3xl sm:text-4xl font-extrabold ${plan.isPopular ? 'text-orange-600 drop-shadow-sm' : 'text-[#ea763f] drop-shadow-lg'}`}>
                            ₹{plan.offerPrice && <AnimatedPrice value={plan.offerPrice} />}
                          </span>
                        </div>
@@ -333,20 +333,20 @@ export default function PricingSection() {
                             </div>
                            
                             <div className="flex flex-col gap-2">
-    <div>
+    <div className="flex-shrink-0 min-w-0">
                                 <div className="flex items-center gap-2 mb-1">
                                   <span className={`text-xs font-semibold uppercase tracking-wide ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Original</span>
-                                  <span className={`text-xs line-through ${plan.isPopular ? 'text-orange-600' : 'text-gray-500'}`}>₹{plan.originalPrice}</span>
+                                  <span className={`text-xs line-through truncate ${plan.isPopular ? 'text-orange-600' : 'text-gray-500'}`}>₹{plan.originalPrice}</span>
                                 </div>
                                 <div className="flex items-center gap-2 mb-2">
                                   <span className={`text-xs font-semibold uppercase tracking-wide ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Regular</span>
-                                  <span className={`text-xs ${plan.isPopular ? 'text-orange-900 font-bold' : 'text-black font-semibold'}`}>₹{plan.regularPrice}</span>
+                                  <span className={`text-xs truncate ${plan.isPopular ? 'text-orange-900 font-bold' : 'text-black font-semibold'}`}>₹{plan.regularPrice}</span>
                                 </div>
                               </div>
                              
-                              <div className="flex items-end gap-2 mb-3">
+                              <div className="flex items-end gap-2 mb-3 flex-shrink-0">
                                 <span className={`text-xs font-semibold ${plan.isPopular ? 'text-orange-800' : 'text-gray-700'}`}>Now</span>
-                                <span className={`text-3xl font-extrabold ${plan.isPopular ? 'text-orange-600 drop-shadow-sm' : 'text-[#ea763f] drop-shadow-lg'}`}>
+                                <span className={`text-2xl sm:text-3xl font-extrabold ${plan.isPopular ? 'text-orange-600 drop-shadow-sm' : 'text-[#ea763f] drop-shadow-lg'}`}>
                                   ₹{plan.offerPrice && <AnimatedPrice value={plan.offerPrice} />}
                                 </span>
                               </div>
