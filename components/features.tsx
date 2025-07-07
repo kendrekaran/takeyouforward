@@ -74,7 +74,7 @@ export default function Features() {
     <div className="py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8 bg-[#1d1c20]" >
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 px-2">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white xl:text-5xl font-bold mb-4 px-2">
             Everything You Need to <span className="text-[#ea763f]">Crack Interviews</span>
           </h2>
         </div>

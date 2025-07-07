@@ -147,7 +147,7 @@ export default function PricingSection() {
       <div className="max-w-6xl mx-auto">
        
         <div className="text-center mb-8 sm:mb-12">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-bold mb-4 px-2">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl text-white xl:text-5xl font-bold mb-4 px-2">
             Choose Your <span className="text-[#ea763f]">Plan</span>
           </h2>
           <p className="text-sm sm:text-base text-white/90 leading-relaxed max-w-3xl mx-auto">
